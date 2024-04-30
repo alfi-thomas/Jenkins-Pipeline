@@ -40,7 +40,7 @@ pipeline {
         }
         stage('Deploy to Staging') {
             steps {
-                echo 'Deploying to Amazon Lightsail staging server...'
+                echo 'Deploying to AWS ECS staging server...'
             }
         }
         stage('Integration Tests on Staging') {
